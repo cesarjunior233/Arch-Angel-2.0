@@ -1,14 +1,14 @@
 ## Server name: This appears at the top of the screen in-game. Remove the # infront of SERVERNAME and replace 'tgstation' with the name of your choice
-# SERVERNAME tgstation
+ SERVERNAME Arch Angel 2.0
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Space Station 13
+STATIONNAME 
 
 # Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
-LOBBY_COUNTDOWN 120
+LOBBY_COUNTDOWN 160
 
 # Round End Time: This is the amount of time after the round ends that players have to murder death kill each other.
-ROUND_END_COUNTDOWN 90
+ROUND_END_COUNTDOWN 120
 
 ## Add a # infront of this if you want to use the SQL based admin system, the legacy system uses admins.txt. You need to set up your database to use the SQL based system.
 ADMIN_LEGACY_SYSTEM
@@ -144,7 +144,7 @@ CHECK_RANDOMIZER
 # SERVER ss13.example.com:2506
 
 ## forum address
-# FORUMURL http://tgstation13.org/phpBB/index.php
+# FORUMURL http://archangelstation.enjin.com/home
 
 ## Wiki address
 # WIKIURL http://www.tgstation13.org/wiki
@@ -156,14 +156,14 @@ CHECK_RANDOMIZER
 # GITHUBURL https://www.github.com/tgstation/-tg-station
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-# BANAPPEALS http://justanotherday.example.com
+# BANAPPEALS http://archangelstation.enjin.com/forum
 
 ## In-game features
 ##Toggle for having jobs load up from the .txt
 # LOAD_JOBS_FROM_TXT
 
 ##Remove the # mark infront of this to forbid admins from possessing the singularity.
-#FORBID_SINGULO_POSSESSION
+FORBID_SINGULO_POSSESSION
 
 ## Remove the # to show a popup 'reply to' window to every non-admin that recieves an adminPM.
 ## The intention is to make adminPMs more visible. (although I fnd popups annoying so this defaults to off)
@@ -191,7 +191,7 @@ TICKLAG 0.5
 #CROSS_SERVER_ADDRESS byond:\\address:port
 
 ## Name that the server calls itself in communications
-#CROSS_COMMS_NAME
+#Arch Angel 2
 
 ## Hub address for tracking stats
 ## example: Hubmakerckey.Hubname
@@ -206,13 +206,13 @@ TICKLAG 0.5
 ##Note: all population caps can be used with each other if desired.
 
 ## Uncomment for 'soft' population caps, players will be warned while joining if the living crew exceeds the listed number.
-#SOFT_POPCAP 100
+#SOFT_POPCAP 30
 
 ## Message for soft cap
 SOFT_POPCAP_MESSAGE Be warned that the server is currently serving a high number of users, consider using alternative game servers.
 
 ## Uncomment for 'hard' population caps, players will not be allowed to spawn if the living crew exceeds the listed number, though they may still observe or wait for the living crew to decrease in size.
-#HARD_POPCAP 150
+#HARD_POPCAP 40
 
 ## Message for hard cap
 HARD_POPCAP_MESSAGE The server is currently serving a high number of users, You cannot currently join. You may wait for the number of living crew to decline, observe, or find alternative servers.
